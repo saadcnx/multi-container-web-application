@@ -59,8 +59,8 @@ Client ──► Nginx:80 ──► │ ──► Flask/Gunicorn:5000           
 ### Clone & Run
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/saadcnx/multi-container-web-application.git
+cd multi-container-web-application
 ```
 
 ```bash
@@ -189,6 +189,10 @@ docker-compose exec db pg_dump -U postgres webapp > backup.sql
 # Restore
 docker-compose exec -T db psql -U postgres webapp < backup.sql
 ```
+
+## SCREENSHOTS
+<img width="1457" height="93" alt="image" src="https://github.com/user-attachments/assets/05d77958-8e47-41f2-bc4f-ac1de2d63681" />
+<img width="1548" height="186" alt="image" src="https://github.com/user-attachments/assets/35c2f290-5505-42f8-8a7a-74dac6e8a17e" />
 
 ---
 
