@@ -193,6 +193,8 @@ docker-compose exec -T db psql -U postgres webapp < backup.sql
 ## SCREENSHOTS
 <img width="1457" height="93" alt="image" src="https://github.com/user-attachments/assets/05d77958-8e47-41f2-bc4f-ac1de2d63681" />
 <img width="1548" height="186" alt="image" src="https://github.com/user-attachments/assets/35c2f290-5505-42f8-8a7a-74dac6e8a17e" />
+Horizontal scaling - 3 web instances running
+<img width="1549" height="431" alt="image" src="https://github.com/user-attachments/assets/12278d6f-1ca3-4837-a74d-290f010db53d" />
 
 ---
 
